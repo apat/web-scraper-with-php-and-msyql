@@ -1,0 +1,20 @@
+{
+  "name": "apat/web-scraper-with-php-and-msyql",
+  "type": "project",
+  "description": "Extract contents from hotels engine and fill into a local project with MySQL.",
+  "keywords": ["scraper", "mysql", "php", "cron"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alberto Pat",
+      "email": "apmsuperior@gmail.com",
+      "homepage": "https://mexlike.io",
+      "role": "Writer & Developer"
+    }
+  ],
+  "require": {
+    "php" : "^5.4 || ^7.0",
+    "ext-mbstring": "*",
+    "vlucas/phpdotenv": "^2.5"
+  }
+}
